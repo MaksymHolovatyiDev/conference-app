@@ -1,0 +1,21 @@
+@import "styles/index";
+@import "styles/variables";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root, .app {
+  height: 100%;
+}

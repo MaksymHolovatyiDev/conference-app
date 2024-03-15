@@ -1,0 +1,50 @@
+@import "src/styles/variables";
+
+.call {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  background-color: #333d50;
+
+  &--link {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 11;
+  }
+
+  &--body {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+  }
+
+  &--actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 12px;
+
+    .actions-item {
+      display: flex;
+      border-radius: 50%;
+      padding: 8px;
+      background-color: $blue-100;
+      cursor: pointer;
+
+      &.end-call {
+        background-color: $red-100;
+      }
+
+      svg {
+        color: $white;
+      }
+    }
+  }
+}

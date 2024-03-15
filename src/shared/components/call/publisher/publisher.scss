@@ -1,0 +1,58 @@
+@import "src/styles/variables";
+
+.publisher {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: $primary-100;
+  border-radius: 12px;
+  overflow: hidden;
+
+  video {
+    width: 100%;
+    height: 100%;
+  }
+
+  &--empty {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+
+    svg {
+      color: $white;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .publisher--actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 12px;
+    z-index: 10;
+
+    .actions-item {
+      display: flex;
+      border-radius: 50%;
+      padding: 8px;
+      background-color: $blue-100;
+      cursor: pointer;
+
+      svg {
+        color: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+@import "colors";
+
+/** Titles */
+@mixin font_T1($color: $primary-100) {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 28px;
+  color: $color;
+}
+
+@mixin font_T2($color: $primary-100) {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 22px;
+}
+
+@mixin font_T3($color: $primary-100) {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 20px;
+  color: $color;
+}
+
+/** Paragraph text */
+@mixin font_P1_reg($color: $primary-100) {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px;
+  color: $color;
+}
+
+@mixin font_P2_reg($color: $primary-100) {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px;
+  color: $color;
+}
+
+@mixin font_P3_reg($color: $primary-100) {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 17px;
+  color: $color;
+}
+
+@mixin font_P4_reg($color: $primary-100) {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+  line-height: 14px;
+  color: $color;
+}
+
+@mixin font_P1_med($color: $primary-100) {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 22px;
+  color: $color;
+}
+
+@mixin font_P2_med($color: $primary-100) {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px;
+  color: $color;
+}
+
+@mixin font_P2_semibold($color: $primary-100) {
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 20px;
+  color: $color;
+}
+
+@mixin font_P1_reg_und($color: $primary-100) {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px;
+  color: $color;
+  text-decoration-line: underline;
+}

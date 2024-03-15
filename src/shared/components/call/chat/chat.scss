@@ -1,0 +1,34 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+
+  &--list {
+    max-height: 150px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 24px;
+
+    overflow: auto;
+
+    .list-item {
+
+    }
+  }
+
+  &--send {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .send-input {
+      width: 100%;
+
+      .MuiInputBase-root {
+        width: 100%;
+      }
+    }
+  }
+}

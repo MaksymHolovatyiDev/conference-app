@@ -1,0 +1,32 @@
+@import "src/styles/variables";
+
+.join-to-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    max-width: 50%;
+    min-width: 320px;
+    width: 100%;
+    background-color: white;
+
+    .body-item {
+
+      &--title {
+        @include font_T1;
+        text-align: center;
+      }
+
+      &--actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
